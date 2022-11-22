@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Michelin';
+    src: url('./fonts/Michelin-SemiBold.eot');
+    src: local('Michelin SemiBold Regular'), local('Michelin-SemiBold'),
+        url('./fonts/Michelin-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Michelin-SemiBold.woff2') format('woff2'),
+        url('./fonts/Michelin-SemiBold.woff') format('woff'),
+        url('./fonts/Michelin-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Michelin';
+    src: url('./fonts/Michelin-Bold.eot');
+    src: local('Michelin Bold'), local('Michelin-Bold'),
+        url('./fonts/Michelin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Michelin-Bold.woff2') format('woff2'),
+        url('./fonts/Michelin-Bold.woff') format('woff'),
+        url('./fonts/Michelin-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Michelin';
+    src: url('./fonts/Michelin-Light.eot');
+    src: local('Michelin Light Regular'), local('Michelin-Light'),
+        url('./fonts/Michelin-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Michelin-Light.woff2') format('woff2'),
+        url('./fonts/Michelin-Light.woff') format('woff'),
+        url('./fonts/Michelin-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Michelin';
+    src: url('./fonts/Michelin-Black.eot');
+    src: local('Michelin Black Regular'), local('Michelin-Black'),
+        url('./fonts/Michelin-Black.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Michelin-Black.woff2') format('woff2'),
+        url('./fonts/Michelin-Black.woff') format('woff'),
+        url('./fonts/Michelin-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Michelin';
+    src: url('./fonts/Michelin-Regular.eot');
+    src: local('Michelin Regular'), local('Michelin-Regular'),
+        url('./fonts/Michelin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Michelin-Regular.woff2') format('woff2'),
+        url('./fonts/Michelin-Regular.woff') format('woff'),
+        url('./fonts/Michelin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {font-family: "Michelin1";
+            src: url("./fonts/Michelin.otf");
+           }
+
+@font-face {font-family: "Dijkstra";
+            src: url("./fonts/dijkstra.eot"); /* IE9*/
+            src: url("./fonts/dijkstra-ie.eot") format("embedded-opentype"), /* IE6-IE8 */
+                 url("./fonts/dijkstra.woff2") format("woff2"), /* chrome firefox */
+                 url("./fonts/dijkstra.woff") format("woff"), /* chrome firefox */
+                 url("./fonts/dijkstra.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+                 url("./fonts/dijkstra.svg") format("svg"); /* iOS 4.1- */
+}
+
+:root {
+  --r-main-font: Dijkstra, sans-serif;
+  --r-heading-font: Dijkstra, Impact, sans-serif;
+}
+
+.reveal p,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 0 black;
+  text-transform: initial;
+  background: rgba(253,246,227, 0.75);
+  padding: 14px 18px;
+  margin: 0;
+}
+
+.reveal .author {
+  font-size: 30px
+}
+
+.reveal .date {
+  font-size: 20px;
+}
