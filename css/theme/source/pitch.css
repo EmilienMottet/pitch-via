@@ -72,25 +72,25 @@
                  url("./fonts/dijkstra.svg") format("svg"); /* iOS 4.1- */
 }
 
-:root {
-  --r-main-font: Dijkstra, sans-serif;
-  --r-heading-font: Dijkstra, Impact, sans-serif;
-}
+/* :root { */
+/*   --r-main-font: Dijkstra, sans-serif; */
+/*   --r-heading-font: Dijkstra, Impact, sans-serif; */
+/* } */
 
-.reveal p,
-.reveal h1,
-.reveal h2,
-.reveal h3,
-.reveal h4,
-.reveal h5,
-.reveal h6 {
-  letter-spacing: 0.02em;
-  text-shadow: 0 1px 0 black;
-  text-transform: initial;
-  background: rgba(253,246,227, 0.75);
-  padding: 14px 18px;
-  margin: 0;
-}
+/* .reveal p, */
+/* .reveal h1, */
+/* .reveal h2, */
+/* .reveal h3, */
+/* .reveal h4, */
+/* .reveal h5, */
+/* .reveal h6 { */
+/*   letter-spacing: 0.02em; */
+/*   /\* text-shadow: 0 1px 0 black; *\/ */
+/*   text-transform: initial; */
+/*   /\* background: rgba(253,246,227, 0.75); *\/ */
+/*   padding: 14px 18px; */
+/*   margin: 0; */
+/* } */
 
 .reveal .author {
   font-size: 30px
